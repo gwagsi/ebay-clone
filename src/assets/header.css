@@ -1,0 +1,23 @@
+.nav {
+  background-color: aqua;
+}
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px;
+  align-items: center;
+  background-color: blanchedalmond;
+}
+.nav-top ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav-top li {
+  padding: 5px;
+}
+.nav-top-right a {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
