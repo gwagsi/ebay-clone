@@ -1,12 +1,16 @@
-.nav {
-  background-color: aqua;
+/*Importing fonts*/
+@font-face {
+  font-family: market;
+  src: url(./font/Latinotype-Market-MediumDEMO.woff);
 }
+/* Styles for The top nav bar */
+
 .nav-top {
   display: flex;
   justify-content: space-between;
   padding: 6px 30px;
   align-items: center;
-  border-bottom: 2px solid #e9e9e9;
+  border-bottom: 1px solid #cfccca;
   height: 19px;
 }
 .nav-top-right ul {
@@ -39,4 +43,114 @@
   text-decoration: none;
   color: black;
   padding: 10px;
+}
+/* Start | styles for middle navbar*/
+input {
+  background: url("./search.svg");
+
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 10px;
+  text-indent: 30px;
+  width: 50vw;
+  height: auto;
+  border-style: hidden;
+}
+input:focus {
+  background-image: none;
+  text-indent: 0px;
+  border-style: hidden;
+}
+input:focus::placeholder {
+  color: transparent;
+  border-color: cornsilk;
+}
+.nav-midle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, 100%Helvetica, sans-serif;
+  height: 70px;
+  padding-right: 30px;
+}
+.nav-midle img {
+  height: 110px;
+}
+.shop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+.shop li {
+  list-style: none;
+  color: black;
+}
+.search {
+  display: flex;
+  width: 60vw;
+  border: 1px solid black;
+  justify-content: stretch;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+button {
+  height: 46px;
+  width: 160px;
+  background-color: #3565f3;
+  padding-left: 30px;
+  border-radius: 3px;
+  font-size: 15px;
+  color: white;
+}
+.nav-midle span {
+  font-size: 15px;
+  padding-left: 3px;
+}
+.category {
+  display: flex;
+  border-left: 1px solid black;
+  justify-content: center;
+  padding-top: 10px;
+}
+/* Start | styles for bottom navbar*/
+.nav-bottom ul {
+  display: flex;
+  justify-content: center;
+}
+.nav-bottom li {
+  padding: 5px;
+  list-style: none;
+}
+.nav-bottom-links {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.nav-bottom-active {
+  border-bottom: 2px solid black;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.nav-bottom {
+  border-bottom: 1px solid #cfccca;
+  border-top: 1px solid #cfccca;
+  height: 30px;
+}
+.nav-bottom-icon-section {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.nav-bottom-icon {
+  padding-right: 3px;
 }
