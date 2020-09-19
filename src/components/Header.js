@@ -9,45 +9,63 @@ export class Header extends PureComponent {
       <div className="nav">
         <div className="nav-top">
           <div className="nav-top-left">
-            Hi!{" "}
-            <a hrer="#" target="_blank">
-              Sign in
-            </a>
+            <div>
+              Hi!{" "}
+              <a href="#" target="_blank">
+                Sign in{" "}
+              </a>
+              or <a href="#">Register</a>
+            </div>
+            <div>
+              <ul>
+                <li>
+                  <a href="#" target="_blank">
+                    Daily Deals
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    Help & Contract
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
+
           <div className="nav-top-right">
             <ul>
               <li>
-                <a hrer="#" target="_blank">
+                <a href="#" target="_blank">
                   Ship to
                 </a>
               </li>
               <li>
-                <a hrer="#" target="_blank">
+                <a href="#" target="_blank">
                   Sell
                 </a>
               </li>
               <li>
-                <a hrer="#" target="_blank">
+                <a href="#" target="_blank">
                   Ship to
                 </a>
               </li>
               <li>
-                <a hrer="#" target="_blank">
+                <a href="#" target="_blank">
                   Watchlist
                 </a>
               </li>
               <li>
-                <a hrer="#" target="_blank">
+                <a href="#" target="_blank">
                   My eBay
                 </a>
               </li>
               <li>
-                <a hrer="#" target="_blank">
+                <a href="#" target="_blank">
                   <NotificationsNoneIcon />
                 </a>
               </li>
               <li>
-                <a hrer="#" target="_blank">
+                <a href="#" target="_blank">
                   <ShoppingCartOutlinedIcon />
                 </a>
               </li>
