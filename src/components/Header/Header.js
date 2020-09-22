@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-import "../assets/header.css";
+import "./header.css";
 /**Importing material Icons */
 import NotificationsNoneIcon from "@material-ui/icons/NotificationsNone";
 import ShoppingCartOutlinedIcon from "@material-ui/icons/ShoppingCartOutlined";

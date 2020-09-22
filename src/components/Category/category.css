@@ -1,0 +1,32 @@
+.image-cicle {
+  border-radius: 50%;
+  border: 1px solid white;
+  height: 150px;
+  width: 150px;
+}
+.circle-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.image-cicle img {
+  height: 150px;
+  width: 150px;
+
+  border-radius: 100px;
+}
+.cat {
+  display: flex;
+  flex-direction: row;
+  padding-top: 35px;
+  padding-left: 30px;
+  justify-content: space-evenly;
+}
+.circle-section p {
+  padding: 20px 0 0 55px;
+  font-size: 16px;
+  height: 13.5px;
+  color: #111820;
+  font-family: sans-serif;
+}

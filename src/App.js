@@ -1,10 +1,9 @@
 import React from "react";
 import "./assets/App.css";
-import Header from "./components/Header";
-import LeftArrow from "./components/Carousel/left_arrow";
-import RightArrow from "./components/Carousel/right_arrow";
+import Header from "./components/Header/Header";
+
 import Slider from "./components/carousel/Slider";
-import Category from "./components/Category";
+import Category from "./components/Category/Category";
 function App() {
   return (
     <div className="App">
