@@ -1,8 +1,8 @@
 import React from "react";
 import "./assets/App.css";
 import Header from "./components/Header";
-import LeftArrow from "./components/Carousel/leftArrow";
-import RightArrow from "./components/Carousel/rightArrow";
+import LeftArrow from "./components/Carousel/left_arrow";
+import RightArrow from "./components/Carousel/right_arrow";
 function App() {
   return (
     <div className="App">

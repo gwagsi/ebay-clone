@@ -12,7 +12,7 @@ export class Header extends PureComponent {
       <div className="nav">
         <div className="nav-top">
           <div className="nav-top-left">
-            <div>
+            <div className="nav-top-left-first">
               Hi!{" "}
               <a href="#" target="_blank">
                 Sign in{" "}

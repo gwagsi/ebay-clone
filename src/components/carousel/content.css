@@ -1,0 +1,77 @@
+.active {
+  display: flex;
+  width: 7000x;
+  height: 309px;
+}
+
+#img {
+  width: 73%;
+  height: 308px;
+  border: 1px solid black;
+}
+
+:hover #img {
+  border: 1px solid rgb(38, 0, 255) (34, 33, 33);
+  border-radius: 5px;
+}
+.slider-card {
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+}
+.slider-card h2 {
+  font-family: sans-serif;
+  font-size: 36px;
+  width: 300px;
+  padding-left: 25px;
+}
+.slider-card p {
+  font-family: sans-serif;
+  padding-left: 25px;
+}
+.slider-card button {
+  font-family: sans-serif;
+  font-size: 16px;
+  max-height: 80px;
+  max-width: 120px;
+  margin-left: 25px;
+  size: 30px;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid gray;
+}
+
+.inactive {
+  display: none;
+  max-width: 900px;
+  text-align: center;
+}
+
+/* Styles for the slider component*/
+.slider {
+  padding: 0px 0px 0px 0px;
+  height: 310px;
+  width: 100vw;
+}
+.slider-items {
+  transition: transform 400ms ease-out;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  background-color: blue;
+}
+#slider-content {
+  width: 100%;
+}
+.arrow-left {
+  background-color: blue;
+  position: relative;
+  left: 30px;
+}
+.arrow-right {
+  background-color: blue;
+  position: relative;
+  right: 30px;
+}
